@@ -1,0 +1,117 @@
+form input
+{
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	border:1px solid #333;
+	border-radius: 4px;
+	padding-left: 1.5ch;
+}
+form select
+{
+	background-color: #fff;
+	border: none;
+	border:1px solid #333;
+	border-radius: 4px;
+	padding-left: 1ch;
+}
+#submit
+{
+	text-align: center;
+	padding: 0px;
+}
+form label
+{
+	background: #fff;
+	height: 100%;
+}
+form
+{
+	display: grid;
+	grid-template-columns: 15ch 1fr 10ch;
+	color: #2D3142;
+	grid-gap:3px;
+	padding: 1%;
+	margin: 1%;
+}
+.container
+{
+	border:1px solid #eee;
+	margin: 1%;
+	padding-top: 2.5%;
+	border-radius: 5px;
+}
+#submit:hover
+{
+	background: #ddd;
+}
+p
+{
+	text-align: justify;
+}
+.show-true li:hover
+{
+	background: #eee;
+	border-radius: 3px;
+}
+.show-false
+{
+	display: none;
+}
+.show-true
+{
+	display: block;
+	position: absolute;
+	background: white;
+	min-width: max-content;
+	border: 1px solid #333;
+	padding-left: 1ch;
+	padding-right: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-radius: 5px;
+}
+#show{display: block}
+#hide{display: none}
+#myTags
+{
+	display: grid;
+	grid-template-columns:repeat(1,1fr);
+	justify-content: space-between;
+	grid-gap: 1px;
+}
+#myTags li
+{
+	padding: 5px;
+	display: grid;
+	grid-template-columns:max-content 1fr;
+	grid-gap: 1ch;
+	border-radius: 3px;
+	overflow: hidden;
+	padding-left: 5px;
+	padding-right: 5px;
+	border:1px solid #333;
+	width: max-content;
+}
+.tag-Fo
+{
+	background: #D1CFE2;
+}
+.tag-He
+{
+	background: #9CADCE;
+}
+.tag-Ar
+{
+	background: #7EC4CF;
+}
+.tag-Ad
+{
+	background: #52B2CF;
+}
+#myTags li:hover
+{
+	background: #eee;
+	color: black;
+	overflow: visible;
+}

@@ -1,0 +1,25 @@
+.a-true
+{
+	background: #94BFA7;
+	border: 1px solid #333;
+	padding-top: 1ch;
+	padding-bottom: 1ch;
+	color:#333;
+}
+.a-false
+{
+	background: #F5CDA7;
+	border: 1px solid #333;
+	padding-top: 1ch;
+	padding-bottom: 1ch;
+	color:#333;
+}
+#SubCatagories
+{
+	margin:1px;
+	grid-gap:1px;
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	text-align: center;
+	justify-content: center;
+}

@@ -1,0 +1,91 @@
+*
+{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+@font-face
+{
+	font-family: 'Historia';
+	font-style: normal;
+	font-weight: 400;
+
+	src: local('Historia'), url(../font/Historia.otf) format('opentype');
+}
+@font-face
+{
+	font-family: 'penna';
+	font-style: normal;
+	font-weight: 400;
+
+	src: local('penna'), url(../font/Historia.otf) format('opentype');
+}
+
+.modal-lg .modal-header h5
+{
+	font-family: Historia;
+	font-size: 5em;
+}
+/* ======================================================= */
+.custom-ModalHeader
+{
+	display: grid;
+	min-width: 465px;
+}
+.custom-ModalHeader img
+{
+	width:100%;
+	height: 15ch;
+	position: relative;
+	z-index: 1;
+	grid-column: 1/1;
+	grid-row: 1/1;
+	min-width: 465px;
+	object-fit: cover;
+}
+.custom-ModalHeader h5
+{
+	color:#fff;
+	width:100%;
+	height: 100%;
+	position: relative;
+	z-index: 2;
+	grid-column: 1/1;
+	grid-row: 1/1;
+	font-family: 'Historia';
+	font-size:5em;
+	text-align:center;
+	margin:auto;
+	min-width: 465px;
+	background-color:rgba(0,0,0,0.2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.modal-body
+{
+	margin: 1px;
+	padding: 1px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	min-width: 465px;
+	background: white;
+}
+
+div.modal-footer
+{
+	margin: 1px;
+	padding: 1px;
+	background-color:#fff;
+	color:#333;
+	padding:1px;
+	padding-top: 2px;
+	min-width: 465px;
+	display: flex;
+	justify-content: flex-end;
+}
+#submitNav Button
+{
+	border: 1px solid #333;
+}
